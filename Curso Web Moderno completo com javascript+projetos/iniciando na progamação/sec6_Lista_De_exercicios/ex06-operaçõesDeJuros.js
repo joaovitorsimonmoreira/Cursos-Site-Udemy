@@ -17,5 +17,5 @@ const jurosComposto = (capital,taxa,tempo)=>{
 
   return console.log(juros.toFixed(1));
 }
-jurosSimples(1000,12,5);
-jurosComposto(600,12,20);
+jurosSimples();
+jurosComposto(30000,3.25,24);

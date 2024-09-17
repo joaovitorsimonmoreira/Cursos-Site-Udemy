@@ -10,4 +10,4 @@ const calcularFatorial = (numero)=>{
   }
 }
 
-calcularFatorial(10);
+calcularFatorial(5);

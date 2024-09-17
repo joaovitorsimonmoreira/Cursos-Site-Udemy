@@ -1,12 +1,17 @@
 const calcularTroco = (valor)=>{
-  const notas = [1,10,20,50,100];
+  const cedulas = [100,50,20,10,5,1];
 
   if(valor > 0){
-    while (valor ) {
-      
+    let resultado;
+    switch (valor) {
+      case (valor >= 100):
+        resultado = valor/100
+        break;
+    
+      default:
+        break;
     }
   }else{
-    return console.log("[ERRO] verifique os dados");
+    console.log("[ERRO] verifique os dados");
   }
 }
-
